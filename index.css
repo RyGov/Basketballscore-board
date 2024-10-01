@@ -1,0 +1,175 @@
+@font-face {
+    font-family: "Cursed Timer ULiL";
+    src: url("https://db.onlinewebfonts.com/t/ab0e848e0e83a85a5af69f5acf1ebe73.eot");
+    src:
+      url("https://db.onlinewebfonts.com/t/ab0e848e0e83a85a5af69f5acf1ebe73.eot?#iefix")
+        format("embedded-opentype"),
+      url("https://db.onlinewebfonts.com/t/ab0e848e0e83a85a5af69f5acf1ebe73.woff2")
+        format("woff2"),
+      url("https://db.onlinewebfonts.com/t/ab0e848e0e83a85a5af69f5acf1ebe73.woff")
+        format("woff"),
+      url("https://db.onlinewebfonts.com/t/ab0e848e0e83a85a5af69f5acf1ebe73.ttf")
+        format("truetype"),
+      url("https://db.onlinewebfonts.com/t/ab0e848e0e83a85a5af69f5acf1ebe73.svg#Cursed Timer ULiL")
+        format("svg");
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .hometitle {
+    font-family: Verdana;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+    color: #eeeeee;
+    width: 149px;
+    height: 36px;
+    margin-left: 85px;
+    border: 2px solid;
+    border-radius: 3px;
+  }
+  
+  .guesttitle {
+    font-family: Verdana;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    color: #eeeeee;
+    width: 149px;
+    height: 36px;
+    margin-left: 106px;
+    line-height: 36px;
+    border: 2px solid;
+    border-radius: 3px;
+    padding: 0px 5px 0px 5px;
+  }
+  
+  body {
+    background-color: #1b244a;
+    width: 575px;
+    height: 385px;
+    top: -1135px;
+    left: -1996px;
+  }
+  
+  p {
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 126.67px;
+    text-align: center;
+    color: #f94f6d;
+    font-family: "Cursed Timer ULiL";
+  }
+  .homescore-background {
+    width: 155px;
+    height: 120px;
+    margin-top: 125px;
+    margin-left: 82px;
+    border-radius: 5px;
+    background-color: black;
+  }
+  
+  .guestscore-background {
+    width: 155px;
+    height: 120px;
+    background-color: black;
+    border-radius: 5px;
+    margin-left: 100px;
+    margin-top: 125px;
+  }
+  
+  .btnhome1 {
+    box-sizing: border-box;
+    position: absolute;
+    margin-left: 82px;
+    width: 45px;
+    height: 45px;
+    color: #9aabd8;
+    border: 2px solid #9aabd8;
+    background-color: #1b244a;
+    border-radius: 5px;
+    margin-top: 26px;
+  }
+  
+  .btnhome2 {
+    box-sizing: border-box;
+    position: absolute;
+    margin-left: 136px;
+    width: 45px;
+    height: 45px;
+    color: #9aabd8;
+    border: 2px solid #9aabd8;
+    background-color: #1b244a;
+    border-radius: 5px;
+     margin-top: 26px;
+  }
+  
+  .btnhome3 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    color: #9aabd8;
+    border: 2px solid #9aabd8;
+    background-color: #1b244a;
+    border-radius: 5px;
+    margin-left: 192px;
+     margin-top: 26px;
+  }
+  
+  .btnguest1 {
+    box-sizing: border-box;
+    position: absolute;
+    margin-left: 100px;
+    width: 45px;
+    height: 45px;
+    color: #9aabd8;
+    border: 2px solid #9aabd8;
+    background-color: #1b244a;
+    border-radius: 5px;
+    margin-top: 26px;
+  }
+  
+  .btnguest2 {
+    box-sizing: border-box;
+    position: absolute;
+    margin-left: 154px;
+    width: 45px;
+    height: 45px;
+    color: #9aabd8;
+    border: 2px solid #9aabd8;
+    background-color: #1b244a;
+    border-radius: 5px;
+    margin-top: 26px;
+  }
+  
+  .btnguest3 {
+    box-sizing: border-box;
+    position: absolute;
+    margin-left: 210px;
+    width: 45px;
+    height: 45px;
+    color: #9aabd8;
+    border: 2px solid #9aabd8;
+    background-color: #1b244a;
+    border-radius: 5px;
+    margin-top: 26px;
+  }
+  .clearscores {
+    width: 65px;
+    height: 50px;
+    color: #1b244a;
+    background-color: white;
+    font-weight: bolder;
+    border-radius: 5px;
+    font-family: Verdana;
+    font-size: 15px;
+    margin-top: 205px;
+    margin-left: -400px;
+    display: flex;
+    align-items:center;
+  }
